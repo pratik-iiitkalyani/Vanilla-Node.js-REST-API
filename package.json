@@ -20,5 +20,8 @@
   "homepage": "https://github.com/pratik-iiitkalyani/Vanilla-Node.js-REST-API#readme",
   "devDependencies": {
     "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "uuid": "^8.3.1"
   }
 }
