@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/pratik-iiitkalyani/Vanilla-Node.js-REST-API/issues"
   },
-  "homepage": "https://github.com/pratik-iiitkalyani/Vanilla-Node.js-REST-API#readme"
+  "homepage": "https://github.com/pratik-iiitkalyani/Vanilla-Node.js-REST-API#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
